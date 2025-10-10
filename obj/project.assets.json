@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\doria\\Documents\\CNAM\\07-10-25\\UE1\\Module4 JeuDeCombat\\Module4 JeuDeCombat.csproj",
+      "projectUniqueName": "C:\\Users\\doria\\Documents\\CNAM\\ProjetAvecGithub\\CNAM-JeuDeCombat\\Module4 JeuDeCombat.csproj",
       "projectName": "Module4 JeuDeCombat",
-      "projectPath": "C:\\Users\\doria\\Documents\\CNAM\\07-10-25\\UE1\\Module4 JeuDeCombat\\Module4 JeuDeCombat.csproj",
+      "projectPath": "C:\\Users\\doria\\Documents\\CNAM\\ProjetAvecGithub\\CNAM-JeuDeCombat\\Module4 JeuDeCombat.csproj",
       "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\doria\\Documents\\CNAM\\07-10-25\\UE1\\Module4 JeuDeCombat\\obj\\",
+      "outputPath": "C:\\Users\\doria\\Documents\\CNAM\\ProjetAvecGithub\\CNAM-JeuDeCombat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

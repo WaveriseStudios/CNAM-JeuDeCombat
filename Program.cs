@@ -3,23 +3,81 @@ using System.Net.NetworkInformation;
 
 namespace JeuDeCombat
 {
+
+    public enum ClassePersonnage
+    {
+        Tank,
+        Damager,
+        Healer
+    }
+
     public class Personnage
     {
-        protected string className { get; set;}
-        protected int damage { get; set;}
+        protected ClassePersonnage className { get; set; }
+        protected int damage { get; set; }
 
-        protected int hp { get; set;}
+        protected int hp { get; set; }
 
-        public Personnage(string name, int maxHealth, int attackPower)
+        public Personnage(ClassePersonnage name = ClassePersonnage.Tank, int maxHealth = 3, int attackPower = 2)
         {
             this.className = name;
             this.damage = attackPower;
             this.hp = maxHealth;
         }
 
-        public string GetClassName() => className;
+
+        // Références
+        public ClassePersonnage GetClassName() => className;
         public int GetDamage() => damage;
         public int GetHp() => hp;
+        public int SetHp(int newhp) => hp = newhp;
+
+        public string GetSpecialAbility()
+        {
+            switch (className)
+            {
+                case ClassePersonnage.Tank:
+                    return "AttaquePuissante";
+                case ClassePersonnage.Healer:
+                    return "Soin";
+                case ClassePersonnage.Damager:
+                    return "Rage";
+            }
+            return "null";
+        }
+
+
+        // Attaque, Défense, Attaque Spéciale
+
+        public void Attaque(Personnage otherPlayer)
+        {
+            otherPlayer.TakeDamage(GetDamage());
+        }
+
+        public void Defense(Personnage otherPlayer)
+        {
+
+        }
+
+        public void AttaqueSpe(Personnage otherPlayer)
+        {
+            switch (GetSpecialAbility())
+            {
+                case "AttaquePuissante":
+                    otherPlayer.TakeDamage(GetDamage());
+                    break;
+                case "Soin":
+                    otherPlayer.TakeDamage(GetDamage());
+                    break;
+                case "":
+                    break;
+            }
+        }
+
+        public void TakeDamage(int damageToDeal)
+        {
+            SetHp(GetHp() - damageToDeal);
+        }
     }
 
     internal class Program
@@ -28,9 +86,9 @@ namespace JeuDeCombat
         {
 
             // Creéation des classes
-            Personnage Tank = new Personnage("Tank", 5,1);
-            Personnage Damager = new Personnage("Damager", 3, 2);
-            Personnage Healer = new Personnage("Healer", 4, 1);
+            Personnage Tank = new Personnage(ClassePersonnage.Tank, 5, 1);
+            Personnage Damager = new Personnage(ClassePersonnage.Tank, 3, 2);
+            Personnage Healer = new Personnage(ClassePersonnage.Tank, 4, 1);
 
             Dictionary<int, Personnage> availableClasses = new Dictionary<int, Personnage>();
             availableClasses.Add(1, Tank);
@@ -45,12 +103,13 @@ namespace JeuDeCombat
 
             // Choix de la classe de l'ia
             Random rnd = new Random();
-            int randomIa = rnd.Next(1,availableClasses.Count+1);
+            int randomIa = rnd.Next(1, availableClasses.Count + 1);
             Personnage iaChoosenClass = availableClasses[randomIa];
             Personnage ia_player = new Personnage(iaChoosenClass.GetClassName(), iaChoosenClass.GetHp(), iaChoosenClass.GetDamage());
 
             // Affichage
-            Console.WriteLine("le joueur est un {0} et a {1}pv", player.GetClassName(),player.GetHp());
+            Console.WriteLine("le joueur est un {0} et a {1}pv", player.GetClassName(), player.GetHp());
+            Console.WriteLine("l'attaque spéciale est {0}", player.GetSpecialAbility());
             Console.WriteLine("le bot est un {0} et a {1}pv", ia_player.GetClassName(), ia_player.GetHp());
 
         }
