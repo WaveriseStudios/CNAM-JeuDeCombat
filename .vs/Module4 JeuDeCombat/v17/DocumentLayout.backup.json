@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\doria\\Documents\\CNAM\\07-10-25\\UE1\\Module4 JeuDeCombat\\",
+  "WorkspaceRootPath": "C:\\Users\\doria\\Documents\\CNAM\\ProjetAvecGithub\\CNAM-JeuDeCombat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{400E6091-55E6-4E5B-A8EB-433F6B2028F7}|Module4 JeuDeCombat.csproj|c:\\users\\doria\\documents\\cnam\\07-10-25\\ue1\\module4 jeudecombat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{400E6091-55E6-4E5B-A8EB-433F6B2028F7}|Module4 JeuDeCombat.csproj|c:\\users\\doria\\documents\\cnam\\projetavecgithub\\cnam-jeudecombat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400E6091-55E6-4E5B-A8EB-433F6B2028F7}|Module4 JeuDeCombat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\doria\\Documents\\CNAM\\07-10-25\\UE1\\Module4 JeuDeCombat\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\CNAM\\ProjetAvecGithub\\CNAM-JeuDeCombat\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\doria\\Documents\\CNAM\\07-10-25\\UE1\\Module4 JeuDeCombat\\Program.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\CNAM\\ProjetAvecGithub\\CNAM-JeuDeCombat\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDUAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwIwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:50:45.483Z",
               "EditorCaption": ""

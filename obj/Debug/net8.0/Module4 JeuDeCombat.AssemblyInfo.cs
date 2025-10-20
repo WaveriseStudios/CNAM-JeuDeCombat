@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Module4 JeuDeCombat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d46c52beee875619f748a89ce1a455623937089")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38ff45875664e280a64a3727511fac19f54d0085")]
 [assembly: System.Reflection.AssemblyProductAttribute("Module4 JeuDeCombat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Module4 JeuDeCombat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

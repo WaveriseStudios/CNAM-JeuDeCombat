@@ -12,3 +12,18 @@ C:\Users\doria\Documents\CNAM\07-10-25\UE1\Module4 JeuDeCombat\obj\Debug\net8.0\
 C:\Users\doria\Documents\CNAM\07-10-25\UE1\Module4 JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.pdb
 C:\Users\doria\Documents\CNAM\07-10-25\UE1\Module4 JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.genruntimeconfig.cache
 C:\Users\doria\Documents\CNAM\07-10-25\UE1\Module4 JeuDeCombat\obj\Debug\net8.0\ref\Module4 JeuDeCombat.dll
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\bin\Debug\net8.0\Module4 JeuDeCombat.exe
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\bin\Debug\net8.0\Module4 JeuDeCombat.deps.json
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\bin\Debug\net8.0\Module4 JeuDeCombat.runtimeconfig.json
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\bin\Debug\net8.0\Module4 JeuDeCombat.dll
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\bin\Debug\net8.0\Module4 JeuDeCombat.pdb
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.AssemblyInfoInputs.cache
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.AssemblyInfo.cs
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.csproj.CoreCompileInputs.cache
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.sourcelink.json
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.dll
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\refint\Module4 JeuDeCombat.dll
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.pdb
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\Module4 JeuDeCombat.genruntimeconfig.cache
+C:\Users\doria\Documents\CNAM\ProjetAvecGithub\CNAM-JeuDeCombat\obj\Debug\net8.0\ref\Module4 JeuDeCombat.dll
